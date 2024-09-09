@@ -1,0 +1,28 @@
+name: calculadora
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0" # Ajuste a versão do SDK para garantir compatibilidade
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Atualize a dependência expressions para uma versão compatível
+  expressions: ^0.2.5+2 # Versão anterior conhecida por ser compatível
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Se precisar adicionar assets ou fontes, você pode fazer isso aqui
